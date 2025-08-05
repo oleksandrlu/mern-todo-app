@@ -3,20 +3,14 @@
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  background-color: #fff;
   padding: 5px;
   border-radius: 5px;
   margin: 40px 0;
-  /* cursor: pointer; */
 }
 
 .formHeading {
   font-size: 30px;
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(50, 65, 215, 1) 16%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: #628ebe;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -30,13 +24,6 @@
 
 .input {
   border: none;
-  border-bottom: 2px solid transparent;
-  border-image: linear-gradient(
-      to right,
-      rgba(50, 65, 215, 1),
-      rgba(0, 212, 255, 1) 100%
-    )
-    2;
   outline: none;
   padding: 5px;
   font-size: 20px;
@@ -50,20 +37,13 @@
 }
 
 .formButton {
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(50, 65, 215, 1) 16%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: #4377af;
   border-radius: 5px;
   color: white;
   border: none;
-  transform: translateY(-2px);
-  width: 100px;
-  height: 40px;
+  padding: 10px;
   font-weight: bold;
   text-transform: uppercase;
-  box-shadow: 0px 8px 9px 1px rgba(50, 65, 215, 0.45);
   cursor: pointer;
 }
 

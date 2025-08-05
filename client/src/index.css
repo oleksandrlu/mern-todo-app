@@ -4,11 +4,6 @@ body {
   /* min-height: 100vh; */
   display: flex;
   justify-content: center;
-  background: rgb(50, 65, 215);
-  background: linear-gradient(
-    90deg,
-    rgba(50, 65, 215, 1) 16%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: #dbe4ee;
   font-family: 'Poppins', serif;
 }
